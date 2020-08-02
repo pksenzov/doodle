@@ -40,3 +40,4 @@ PEP information can be found at:  https://www.python.org/dev/peps/
 python3 kafka_app.py worker
 ```
 3. For testing's sake the app produces 10 events/sec. If you want to simulate events producing by any other method, please comment lines 71-73. Feel free to test on stream.jsonl.gz with any input method.
+4. For performance metrics IS_PERF_METRICS_ON flag should be on.
