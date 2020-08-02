@@ -67,7 +67,7 @@ async def aggregate_users(users):
             logger.info(app.monitor.events_s)
 
 
-# producer: 62-75
+# producer:
 @app.timer(0.1)
 async def produce():
     await source.send(value=User(uid=randrange(1000), ts=int(time())))
