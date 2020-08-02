@@ -35,6 +35,7 @@ PEP information can be found at:  https://www.python.org/dev/peps/
 ### HOW TO RUN:
 
 1. Follow Prerequisites and Installation sections above
+2. Change KAFKA param in the script if your broker URL is not **localhost:9092**
 2. Run the app:
 ```
 python3 kafka_app.py worker
