@@ -29,6 +29,7 @@ PEP information can be found at:  https://www.python.org/dev/peps/
 
 ### KEY COMPONENTS / FILES:
 * README.md                                 - This file
+* Report.docx                               - The report of the work including my thoughts about improvements and suggestions
 * kafka_app.py                              - Main app
 * kafka_consumer_loop.py                    - The old basic consumer loop script, can be ignored
 
@@ -41,4 +42,3 @@ PEP information can be found at:  https://www.python.org/dev/peps/
 python3 kafka_app.py worker
 ```
 3. For testing's sake the app produces 10 events/sec. If you want to simulate events producing by any other method, please comment lines 71-73. Feel free to test on stream.jsonl.gz with any input method.
-4. For performance metrics IS_PERF_METRICS_ON flag should be on.
